@@ -8,15 +8,15 @@ checkFolder(){
 
 printHelp(){
     envs=`ls $HOME/.py-venv`
-    echo usage:
+    echo "usage:"
     echo
     echo " source paiton v_env (activate v_env)"
     echo " paiton create v_env"
     echo " paiton delete v_env"
     echo
-    echo available virtual enviroments:
+    echo "available virtual enviroments:"
     if [[ -z "${envs[@]}" ]]; then
-        echo none
+        echo "none"
     else
         echo ${envs[@]}
     fi
