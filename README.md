@@ -14,13 +14,18 @@ sudo mv paiton.sh /usr/local/bin/paiton
 
 ### Create a new virtual environment:
 
-*  paiton create v_env
+```bash
+paiton create v_env
+```
 
 ### Activate virtual environment:
 
-* source paiton v_env
+```bash
+source paiton v_env
+```
 
 ### Delete virtual environment
 
-* paiton delete v_env
-
+```bash
+paiton delete v_env
+```
