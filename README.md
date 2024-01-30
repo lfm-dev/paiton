@@ -1,6 +1,6 @@
 # paiton
 
-A simple script to manage your Python virtual environments.   
+A simple script to manage your Python virtual environments.
 By default all virtual enviroments are stored in /home/user_name/.py-venv
 
 ## Installation
@@ -34,5 +34,5 @@ paiton delete v_env_name
 ### Show all virtual environments
 
 ```bash
-paiton -h
+paiton -venvs
 ```
